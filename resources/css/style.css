@@ -130,8 +130,9 @@ Hero Section
 .navbar .navbar-nav .nav-item:hover::after {
   width: 100%;
 }
-
-/* services cards start*/
+/* ========================
+Service section
+============================*/
 #services{
   background-color: #FFF;
   margin-top: 20px;
@@ -165,9 +166,7 @@ Hero Section
   background: #333;
   width: 50px;
 }
-/* ========================
-Service section
-============================*/
+
 .service_cards{
   position: relative;
   display: flex;
