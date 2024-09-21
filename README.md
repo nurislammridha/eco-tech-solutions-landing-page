@@ -1,6 +1,6 @@
 # EcoTech Solutions Landing Page
 
-This is simple landing page design with html, css-3, bootstrap-5 and javascript.
+This is simple landing page design with html-5, css-3, bootstrap-5 and Javascript.
 
 # Project setup instruction:
 
@@ -11,50 +11,50 @@ First, you will need to clone code from this repository
 ```bash
 # using git
 git init
-git clone https://github.com/nurislammridha/image-gallery-app.git
+git clone https://github.com/nurislammridha/eco-tech-solutions-landing-page.git
 
 ```
 
 ## Step 2: Start your application
 
-Open Project directory folder and you will find index.html folder, click on it and you will see out put on your selected browser.
+Open project directory folder and you will find index.html folder, click on it and you will see output on your selected browser.
 
 # Output Features:
 
 ### 01) Header Navigation:
 
-Company logo: I use company name as text
-Navigation bar: Home, about, Services and Contact section available here for better navigate . I also create a dropdown menu and three services added as options.
+Company logo: I use company name as text.<br>
+Navigation bar: Home, About, Services and Contact section available here for better navigation . I also created a dropdown menu and three services added as options.
 
 ### 02) Hero Section:
 
-I design a animated hero with three images where left and right arrow for controlling slide changes.
+I designed an animated hero with three images with a left and right arrow for controlling slide changes.
 Main Heading, Sub heading and "Learn More" button are available each slide.
 
 ### 03) Services Section:
 
-I design three service cards highlighting three different offering such as "Solar Energy", "Eco-Friendly Products"
-and "Green Consulting" . Each Card have hover effect. Hover a card and you will see the details of the service and "Read More button" .
+I design three service cards highlighting three different offerings such as "Solar Energy", "Eco-Friendly Products"
+and "Green Consulting" . Each Card has a hover effect. Hover a card and you will see the details of the service and the"Read More button" .
 
 ### 04) About Us Section:
 
-This section You will write about the company and its mission. Generally I use here lorem ipsum text.
+This section You will write about the company and its mission. Generally I use lorem ipsum text.
 
 ### 05) Contact Section:
 
-This is form for client to contact with your EcoTech Solutions team. Client can contact with your team with name, email and message info.
-A submit button also available here.
+This is a form for clients to contact your EcoTech Solutions team. Clients can contact your team with name, email and message info.
+A submit button is also available here.
 
 ### 06) Footer Section:
 
-Privacy Policy Options
-Copy Rights
-Social Media are linked
-Section Link (Home, Services, Contact, About)
-Company address phone number (dummy data are showing)
-Company Open Hours (Dummy data are showing)
-Some Company icons are showing
-Subscribe button as "Book Now" button available here
+Privacy Policy Options <br>
+Copy Rights<br>
+Social Media are linked<br>
+Section Link (Home, Services, Contact, About)<br>
+Company address phone number (dummy data are showing)<br>
+Company Open Hours (Dummy data are showing)<br>
+Some Company icons are showing<br>
+Subscribe button as "Book Now" button available here<br>
 
 # Some highlighted technologies I use:
 
@@ -70,7 +70,7 @@ Subscribe button as "Book Now" button available here
 
 ### 01) Responsive Design: I ensure landing page works across devices (large-small any devices)
 
-### 02) Cross Browser: Design support different browser.
+### 02) Cross Browser: Design supports different browsers.
 
 ### 03) Pixel Perfect: Design is pixel perfect
 
