@@ -24,7 +24,8 @@ Open project directory folder and you will find index.html folder, click on it a
 ### 01) Header Navigation:
 
 Company logo: I use company name as text.<br>
-Navigation bar: Home, About, Services and Contact section available here for better navigation . I also created a dropdown menu and three services added as options.
+Navigation bar: Home, About, Services and Contact section available here for better navigation . I also created a dropdown menu and three services added as options.<br>
+Search: A search input and a search button are included.
 
 ### 02) Hero Section:
 
@@ -62,7 +63,7 @@ Subscribe button as "Book Now" button available here<br>
 
 ### 02) CSS3: I use modern css (flex box, grid and animations) for styling.
 
-### 03) Javascript: For smooth scrolling.
+### 03) Javascript: For smooth scrolling(when navigation).
 
 ### 04) Bootstrap 5: Bootstrap5, a css framework I use here.
 
