@@ -19,7 +19,7 @@ git clone https://github.com/nurislammridha/eco-tech-solutions-landing-page.git
 
 Open project directory folder and you will find index.html folder, click on it and you will see output on your selected browser.
 
-# Output Features:
+# Output Features: [LIVE LINK] (https://eco-tech-solutions.netlify.app/)
 
 ### 01) Header Navigation:
 
