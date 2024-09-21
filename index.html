@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- My own style -->
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <!-- Add the Font Awesome CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>EcoTech Solutions</title>
+</head>
+
+<body>
+    <div>
+        <!-- header section -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="#">EcoTech Solutions</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Solar Energy</a></li>
+                                    <li><a class="dropdown-item" href="#">Eco-Friendly Products</a></li>
+                                    <li><a class="dropdown-item" href="#">Green Consulting</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="header_area"></div>
+        <!-- hero section -->
+        <div class="container my_hero">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="resources/images/solar_power_revolution.jpg" alt="Los Angeles" class="d-block rounded"
+                            style="width:100%">
+                        <div class="carousel-caption">
+                            <h2 class="in-up poin-five">Solar Power Revolution</h2>
+                            <p class="in-left two-seconds sub-header">Harnessing the Energy of the Sun</p>
+                            <p class="in-down one-second">
+                                <a href="#" class="btn btn-transparent btn-rounded btn-large my-btn-sm">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resources/images/green_building_technologies.jpg" alt="Chicago"
+                            class="d-block rounded" style="width:100%">
+                        <div class="carousel-caption">
+                            <h2 class="in-left poin-five">Green Building Technologies</h2>
+                            <p class="in-right two-seconds sub-header">Technologies to develop buildings with minimal
+                                impact on the environment</p>
+                            <p class="in-left one-second"><a href="#"
+                                    class="btn btn-transparent btn-rounded btn-large my-btn-sm">Learn More</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resources/images/sustainable_agriculture_technologies.png" alt="New York"
+                            class="d-block rounded" style="width:100%">
+                        <div class="carousel-caption">
+                            <h2 class="in-right poin-five">Sustainable Agriculture Technologies</h2>
+                            <p class="in-right one-second sub-header">Green technologies for a more sustainable
+                                agriculture</p>
+                            <p class="in-right two-seconds"><a href="#"
+                                    class="btn btn-transparent btn-rounded btn-large my-btn-sm">Learn More</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </div>
+        <!-- services section -->
+        <section id="services" class="container rounded">
+
+            <div class="">
+                <div class="text-center txt-service">
+                    <h2 class="fw-bold fs-1">
+                        Our Services
+                    </h2>
+                    <p class="sec-icon"><i class="fa fa-gear"></i></p>
+                </div>
+                <div class="service_cards">
+                    <div class="service_card " style="--clr: #009688">
+                        <div class="img-box">
+                            <img src="resources/images/solar_energy.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Solar Energy</h2>
+                            <p>
+                                As a eco-tech agencies we offer you best solar energy system. Reducing Bio-fuel and
+                                inspires best use of solar energy is our vision.
+                            </p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="service_card" style="--clr: #FF3E7F">
+                        <div class="img-box">
+                            <img src="resources/images/eco_friendly_products.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Eco-Friendly Products</h2>
+                            <p>
+                                We produce for you eco-friendly products which will be rotting as far as possible. We
+                                design and give you best advices for produce eco-friendly products.
+                            </p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="service_card" style="--clr: #03A9F4">
+                        <div class="img-box">
+                            <img src="resources/images/green_consulting.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Green Consulting</h2>
+                            <p>
+                                In order to make greener world we consult for reduce carbo from out environment and
+                                inspires plant more trees.
+                            </p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </section>
+        <!-- about section -->
+        <section id="about" class="container rounded">
+            <div>
+                <div class="text-center txt-about">
+                    <h2 class="fw-bold fs-1">
+                        About Us
+                    </h2>
+                    <p class="sec-icon"><i class="fa fa-gear"></i></p>
+                </div>
+                <p class="lead text-muted px-3 mt-3 text-justify about-txt">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dignissimos recusandae totam
+                    distinctio in voluptatibus iusto maxime quos non repudiandae voluptas assumenda unde ea aliquid ex,
+                    perferendis enim placeat rem?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dignissimos recusandae totam
+                    distinctio in voluptatibus iusto maxime quos non repudiandae voluptas assumenda unde ea aliquid ex,
+                    perferendis enim placeat rem?<br /> <br />
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dignissimos recusandae totam
+                    distinctio in voluptatibus iusto maxime quos non repudiandae voluptas assumenda unde ea aliquid ex,
+                    perferendis enim placeat rem?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dignissimos recusandae totam
+                    distinctio in voluptatibus iusto maxime quos non repudiandae voluptas assumenda unde ea aliquid ex,
+                    perferendis enim placeat rem?
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dignissimos recusandae totam
+                    distinctio in voluptatibus iusto maxime quos non repudiandae voluptas assumenda unde ea aliquid ex,
+                    perferendis enim placeat rem?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dignissimos recusandae totam
+                    distinctio in voluptatibus iusto maxime quos non repudiandae voluptas assumenda unde ea aliquid ex,
+                    perferendis enim placeat rem?
+                </p>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section id="contact" class="container rounded">
+            <div class="">
+                <div class="text-center txt-contact">
+                    <h2 class="fw-bold fs-1">
+                        Contact
+                    </h2>
+                    <p class="sec-icon"><i class="fa fa-gear"></i></p>
+                </div>
+                <form class="p-md-5 border rounded-3 bg-body-tertiary mt-5">
+
+                    <!-- Name input -->
+
+                    <div class="form-floating mb-3">
+
+                        <input type="text" id="form4Example1" class="form-control" />
+
+                        <label class="form-label" for="form4Example1">Name</label>
+
+                    </div>
+
+
+
+                    <!-- Email input -->
+
+                    <div class="form-floating mb-3">
+
+                        <input type="email" id="form4Example2" class="form-control" />
+
+                        <label class="form-label" for="form4Example2">Email address</label>
+
+                    </div>
+
+
+
+                    <!-- Message input -->
+
+                    <div class="form-floating mb-3">
+
+                        <textarea class="form-control" id="form4Example3" rows="3"></textarea>
+
+                        <label class="form-label" for="form4Example3">Message</label>
+
+                    </div>
+
+
+
+                    <!-- Checkbox -->
+
+                    <div class="form-check d-flex justify-content-left mb-3">
+
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+
+                        <label class="form-check-label" for="form4Example4">
+
+                            Send me a copy of this message
+
+                        </label>
+
+                    </div>
+
+
+
+                    <!-- Submit button -->
+
+                    <button type="submit" class="w-100 btn btn-lg btn-primary">Send</button>
+
+                </form>
+            </div>
+        </section>
+        <!-- footer section -->
+        <footer>
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 about-footer">
+                            <h3>EcoTech Solutions </h3>
+                            <ul>
+                                <li><a href="tel:(010) 4567 2345"><i class="fa fa-phone"></i>(010)
+                                        1234 4321</a></li>
+                                <li><i class="fa fa-map-marker"></i>
+                                    1 / 105 sector-4, uttara,
+                                    <br />Dhaka,
+                                    <br />Bangladesh
+                                </li>
+                            </ul>
+                            <a href="" class="btn red-btn book">Book Now</a>
+                        </div>
+                        <div class="col-md-6 col-lg-2 page-more-info">
+                            <div class="footer-title">
+                                <h4>Page links</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3 page-more-info">
+                            <div class="footer-title">
+                                <h4>More Info</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">Ed do eiusmod tempor</a></li>
+                                <li><a href="#">Ed do eiusmod tempor</a></li>
+                                <li><a href="#">Ed do eiusmod tempor</a></li>
+                                <li><a href="#">Ed do eiusmod tempor</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-4 open-hours">
+                            <div class="footer-title">
+                                <h4 class="">Open hours</h4>
+                                <ul class="footer-social">
+                                    <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+                                </ul>
+                            </div>
+                            <table class="my_table">
+                                <tbody>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Mon-Thurs</td>
+                                        <td>9:00am - 5:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Friday</td>
+                                        <td>9:00am - 4:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Sturday</td>
+                                        <td>9:00am - 1:30pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Sunday</td>
+                                        <td>9:30am - 12:00pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <hr>
+                            <div class="footer-logo">
+
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td><img src="resources/images/gallery.jpg"></td>
+                                            <td><img src="resources/images/gallery.jpg"></td>
+                                            <td><img src="resources/images/gallery.jpg"></td>
+                                            <td><img src="resources/images/gallery.jpg"></td>
+                                            <td><img src="resources/images/gallery.jpg"></td>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="">Our Privacy Policy</a>
+                        </div>
+                        <div class="col-sm-8">
+                            <p>EcoTech solutions @ 2024 All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./resources/javascript/script.js"></script>
+
+</body>
+
+</html>
